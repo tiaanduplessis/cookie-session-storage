@@ -1,0 +1,40 @@
+{
+  "name": "cookie-session-storage",
+  "version": "1.0.0",
+  "description": "Cookie based session storage with familiar API",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/tiaanduplessis/cookie-session-storage",
+    "type": "git"
+  },
+  "homepage": "https://github.com/tiaanduplessis/cookie-session-storage",
+  "bugs": "https://github.com/tiaanduplessis/cookie-session-storage",
+  "main": "dist/cookie-session-storage.js",
+  "browser": "dist/cookie-session-storage.js",
+  "module": "dist/cookie-session-storage.es.js",  
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "jest",
+    "format": "prettier-standard 'src/**/*.js'",
+    "build": "bili",
+    "start": "npm run test",
+    "precommit": "npm test",
+    "prepublish": "npm run build",
+    "pretest": "npm run format"
+  },
+  "author": "tiaanduplessis <tiaanduplessis@hotmail.com>",
+  "babel": {
+    "presets": [
+      ["env"]
+    ]
+  },
+  "devDependencies": {
+    "jest": "^21.0.2",
+    "husky": "^0.14.3", 
+    "babel-preset-env": "^1.6.0",
+    "bili": "^0.18.1",
+    "prettier-standard": "^6.0.0"
+  }
+}

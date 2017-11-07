@@ -54,6 +54,8 @@
 
 ## Install
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tiaanduplessis/cookie-session-storage.svg)](https://greenkeeper.io/)
+
 ```sh
 $ npm install cookie-session-storage
 # OR
